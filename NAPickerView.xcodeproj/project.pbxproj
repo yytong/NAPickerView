@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845F99C619331B3200760AFD /* weibo_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845F99BD19331B3200760AFD /* weibo_share@2x.png */; };
+		845F99C719331B3200760AFD /* weibo_share_big_btn_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845F99BE19331B3200760AFD /* weibo_share_big_btn_normal@2x.png */; };
+		845F99C819331B3200760AFD /* weibo_share_big_btn_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845F99BF19331B3200760AFD /* weibo_share_big_btn_pressed@2x.png */; };
+		845F99C919331B3200760AFD /* weibo_share_btn_check_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845F99C019331B3200760AFD /* weibo_share_btn_check_normal@2x.png */; };
+		845F99CA19331B3200760AFD /* weibo_share_btn_check_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845F99C119331B3200760AFD /* weibo_share_btn_check_selected@2x.png */; };
+		845F99CB19331B3200760AFD /* weibo_share_left_btn_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845F99C219331B3200760AFD /* weibo_share_left_btn_normal@2x.png */; };
+		845F99CC19331B3200760AFD /* weibo_share_left_btn_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845F99C319331B3200760AFD /* weibo_share_left_btn_pressed@2x.png */; };
+		845F99CD19331B3200760AFD /* weibo_share_right_btn_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845F99C419331B3200760AFD /* weibo_share_right_btn_normal@2x.png */; };
+		845F99CE19331B3200760AFD /* weibo_share_right_btn_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845F99C519331B3200760AFD /* weibo_share_right_btn_pressed@2x.png */; };
+		DC84324617AF69CF0080EAC5 /* NALabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84324517AF69CF0080EAC5 /* NALabelCell.m */; };
+		DC84324917AF78140080EAC5 /* NACustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84324817AF78140080EAC5 /* NACustomCell.m */; };
+		DCA4E93717AE98380062BAEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA4E93617AE98380062BAEA /* UIKit.framework */; };
+		DCA4E93917AE98380062BAEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA4E93817AE98380062BAEA /* Foundation.framework */; };
+		DCA4E93B17AE98380062BAEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA4E93A17AE98380062BAEA /* CoreGraphics.framework */; };
+		DCA4E94117AE98390062BAEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCA4E93F17AE98390062BAEA /* InfoPlist.strings */; };
+		DCA4E94317AE98390062BAEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA4E94217AE98390062BAEA /* main.m */; };
+		DCA4E94B17AE98390062BAEA /* NAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA4E94A17AE98390062BAEA /* NAAppDelegate.m */; };
+		DCA4E95417AE98390062BAEA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DCA4E95317AE98390062BAEA /* .gitignore */; };
+		DCA4E95917AE98390062BAEA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA4E95817AE98390062BAEA /* Icon.png */; };
+		DCA4E95B17AE98390062BAEA /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA4E95A17AE98390062BAEA /* Icon@2x.png */; };
+		DCA4E95D17AE98390062BAEA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA4E95C17AE98390062BAEA /* Default.png */; };
+		DCA4E95F17AE98390062BAEA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA4E95E17AE98390062BAEA /* Default@2x.png */; };
+		DCA4E96117AE98390062BAEA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA4E96017AE98390062BAEA /* Default-568h@2x.png */; };
+		DCA4E96417AE98390062BAEA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DCA4E96317AE98390062BAEA /* .gitignore */; };
+		DCA4E96717AE98390062BAEA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DCA4E96617AE98390062BAEA /* .gitignore */; };
+		DCA4E96A17AE98390062BAEA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DCA4E96917AE98390062BAEA /* .gitignore */; };
+		DCA4E97217AE98390062BAEA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA4E97117AE98390062BAEA /* SenTestingKit.framework */; };
+		DCA4E97317AE98390062BAEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA4E93617AE98380062BAEA /* UIKit.framework */; };
+		DCA4E97417AE98390062BAEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA4E93817AE98380062BAEA /* Foundation.framework */; };
+		DCA4E97C17AE98390062BAEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCA4E97A17AE98390062BAEA /* InfoPlist.strings */; };
+		DCA4E97F17AE98390062BAEA /* NAPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA4E97E17AE98390062BAEA /* NAPickerViewTests.m */; };
+		DCA4E98A17AE986F0062BAEA /* NARootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA4E98917AE986F0062BAEA /* NARootViewController.m */; };
+		DCA4E98D17AE98F00062BAEA /* NAPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA4E98C17AE98F00062BAEA /* NAPickerView.m */; };
+		DCA4E99217AEBCD70062BAEA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA4E99117AEBCD70062BAEA /* QuartzCore.framework */; };
+		DCA4E99517AEC9AF0062BAEA /* NAPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA4E99417AEC9AF0062BAEA /* NAPickerCell.m */; };
+		DCB6AF7717AF7AAB00F731DE /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB6AF7617AF7AAB00F731DE /* image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCA4E97517AE98390062BAEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA4E92B17AE98380062BAEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA4E93217AE98380062BAEA;
+			remoteInfo = NAPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		845F99BD19331B3200760AFD /* weibo_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo_share@2x.png"; sourceTree = "<group>"; };
+		845F99BE19331B3200760AFD /* weibo_share_big_btn_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo_share_big_btn_normal@2x.png"; sourceTree = "<group>"; };
+		845F99BF19331B3200760AFD /* weibo_share_big_btn_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo_share_big_btn_pressed@2x.png"; sourceTree = "<group>"; };
+		845F99C019331B3200760AFD /* weibo_share_btn_check_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo_share_btn_check_normal@2x.png"; sourceTree = "<group>"; };
+		845F99C119331B3200760AFD /* weibo_share_btn_check_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo_share_btn_check_selected@2x.png"; sourceTree = "<group>"; };
+		845F99C219331B3200760AFD /* weibo_share_left_btn_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo_share_left_btn_normal@2x.png"; sourceTree = "<group>"; };
+		845F99C319331B3200760AFD /* weibo_share_left_btn_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo_share_left_btn_pressed@2x.png"; sourceTree = "<group>"; };
+		845F99C419331B3200760AFD /* weibo_share_right_btn_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo_share_right_btn_normal@2x.png"; sourceTree = "<group>"; };
+		845F99C519331B3200760AFD /* weibo_share_right_btn_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo_share_right_btn_pressed@2x.png"; sourceTree = "<group>"; };
+		DC84324417AF69CF0080EAC5 /* NALabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NALabelCell.h; path = NASources/NALabelCell.h; sourceTree = SOURCE_ROOT; };
+		DC84324517AF69CF0080EAC5 /* NALabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NALabelCell.m; path = NASources/NALabelCell.m; sourceTree = SOURCE_ROOT; };
+		DC84324717AF78140080EAC5 /* NACustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NACustomCell.h; path = Classes/View/NACustomCell.h; sourceTree = "<group>"; };
+		DC84324817AF78140080EAC5 /* NACustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NACustomCell.m; path = Classes/View/NACustomCell.m; sourceTree = "<group>"; };
+		DCA4E93317AE98380062BAEA /* NAPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NAPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA4E93617AE98380062BAEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCA4E93817AE98380062BAEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCA4E93A17AE98380062BAEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCA4E93E17AE98390062BAEA /* NAPickerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NAPickerView-Info.plist"; sourceTree = "<group>"; };
+		DCA4E94017AE98390062BAEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCA4E94217AE98390062BAEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCA4E94417AE98390062BAEA /* NAPickerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NAPickerView-Prefix.pch"; sourceTree = "<group>"; };
+		DCA4E94717AE98390062BAEA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DCA4E94817AE98390062BAEA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		DCA4E94917AE98390062BAEA /* NAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NAAppDelegate.h; path = Classes/Application/NAAppDelegate.h; sourceTree = "<group>"; };
+		DCA4E94A17AE98390062BAEA /* NAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NAAppDelegate.m; path = Classes/Application/NAAppDelegate.m; sourceTree = "<group>"; };
+		DCA4E95317AE98390062BAEA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = Classes/Model/.gitignore; sourceTree = "<group>"; };
+		DCA4E95817AE98390062BAEA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Images/Background/Icon.png; sourceTree = "<group>"; };
+		DCA4E95A17AE98390062BAEA /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Images/Background/Icon@2x.png"; sourceTree = "<group>"; };
+		DCA4E95C17AE98390062BAEA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Images/Background/Default.png; sourceTree = "<group>"; };
+		DCA4E95E17AE98390062BAEA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Images/Background/Default@2x.png"; sourceTree = "<group>"; };
+		DCA4E96017AE98390062BAEA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Images/Background/Default-568h@2x.png"; sourceTree = "<group>"; };
+		DCA4E96317AE98390062BAEA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = Resources/Plists/.gitignore; sourceTree = "<group>"; };
+		DCA4E96617AE98390062BAEA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = Resources/Sounds/.gitignore; sourceTree = "<group>"; };
+		DCA4E96917AE98390062BAEA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = Resources/Xibs/.gitignore; sourceTree = "<group>"; };
+		DCA4E97017AE98390062BAEA /* NAPickerViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NAPickerViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA4E97117AE98390062BAEA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DCA4E97917AE98390062BAEA /* NAPickerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NAPickerViewTests-Info.plist"; sourceTree = "<group>"; };
+		DCA4E97B17AE98390062BAEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCA4E97D17AE98390062BAEA /* NAPickerViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAPickerViewTests.h; sourceTree = "<group>"; };
+		DCA4E97E17AE98390062BAEA /* NAPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAPickerViewTests.m; sourceTree = "<group>"; };
+		DCA4E98817AE986F0062BAEA /* NARootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NARootViewController.h; path = Classes/Controller/NARootViewController.h; sourceTree = "<group>"; };
+		DCA4E98917AE986F0062BAEA /* NARootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NARootViewController.m; path = Classes/Controller/NARootViewController.m; sourceTree = "<group>"; };
+		DCA4E98B17AE98F00062BAEA /* NAPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NAPickerView.h; path = NASources/NAPickerView.h; sourceTree = SOURCE_ROOT; };
+		DCA4E98C17AE98F00062BAEA /* NAPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NAPickerView.m; path = NASources/NAPickerView.m; sourceTree = SOURCE_ROOT; };
+		DCA4E99117AEBCD70062BAEA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DCA4E99317AEC9AF0062BAEA /* NAPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NAPickerCell.h; path = NASources/NAPickerCell.h; sourceTree = SOURCE_ROOT; };
+		DCA4E99417AEC9AF0062BAEA /* NAPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NAPickerCell.m; path = NASources/NAPickerCell.m; sourceTree = SOURCE_ROOT; };
+		DCB6AF7617AF7AAB00F731DE /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = Resources/Images/image.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCA4E93017AE98380062BAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA4E99217AEBCD70062BAEA /* QuartzCore.framework in Frameworks */,
+				DCA4E93717AE98380062BAEA /* UIKit.framework in Frameworks */,
+				DCA4E93917AE98380062BAEA /* Foundation.framework in Frameworks */,
+				DCA4E93B17AE98380062BAEA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA4E96C17AE98390062BAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA4E97217AE98390062BAEA /* SenTestingKit.framework in Frameworks */,
+				DCA4E97317AE98390062BAEA /* UIKit.framework in Frameworks */,
+				DCA4E97417AE98390062BAEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845F99BC19331B3200760AFD /* PopUpBox */ = {
+			isa = PBXGroup;
+			children = (
+				845F99BD19331B3200760AFD /* weibo_share@2x.png */,
+				845F99BE19331B3200760AFD /* weibo_share_big_btn_normal@2x.png */,
+				845F99BF19331B3200760AFD /* weibo_share_big_btn_pressed@2x.png */,
+				845F99C019331B3200760AFD /* weibo_share_btn_check_normal@2x.png */,
+				845F99C119331B3200760AFD /* weibo_share_btn_check_selected@2x.png */,
+				845F99C219331B3200760AFD /* weibo_share_left_btn_normal@2x.png */,
+				845F99C319331B3200760AFD /* weibo_share_left_btn_pressed@2x.png */,
+				845F99C419331B3200760AFD /* weibo_share_right_btn_normal@2x.png */,
+				845F99C519331B3200760AFD /* weibo_share_right_btn_pressed@2x.png */,
+			);
+			name = PopUpBox;
+			path = Resources/PopUpBox;
+			sourceTree = "<group>";
+		};
+		DC84324017AF65C70080EAC5 /* NASources */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4E98B17AE98F00062BAEA /* NAPickerView.h */,
+				DCA4E98C17AE98F00062BAEA /* NAPickerView.m */,
+				DCA4E99317AEC9AF0062BAEA /* NAPickerCell.h */,
+				DCA4E99417AEC9AF0062BAEA /* NAPickerCell.m */,
+				DC84324417AF69CF0080EAC5 /* NALabelCell.h */,
+				DC84324517AF69CF0080EAC5 /* NALabelCell.m */,
+			);
+			name = NASources;
+			sourceTree = "<group>";
+		};
+		DCA4E92A17AE98380062BAEA = {
+			isa = PBXGroup;
+			children = (
+				DCA4E93C17AE98390062BAEA /* NAPickerView */,
+				DCA4E97717AE98390062BAEA /* NAPickerViewTests */,
+				DCA4E93517AE98380062BAEA /* Frameworks */,
+				DCA4E93417AE98380062BAEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCA4E93417AE98380062BAEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4E93317AE98380062BAEA /* NAPickerView.app */,
+				DCA4E97017AE98390062BAEA /* NAPickerViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCA4E93517AE98380062BAEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4E99117AEBCD70062BAEA /* QuartzCore.framework */,
+				DCA4E93617AE98380062BAEA /* UIKit.framework */,
+				DCA4E93817AE98380062BAEA /* Foundation.framework */,
+				DCA4E93A17AE98380062BAEA /* CoreGraphics.framework */,
+				DCA4E97117AE98390062BAEA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCA4E93C17AE98390062BAEA /* NAPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4E94517AE98390062BAEA /* Classes */,
+				DCA4E95517AE98390062BAEA /* Resources */,
+				DCA4E93D17AE98390062BAEA /* Supporting Files */,
+			);
+			path = NAPickerView;
+			sourceTree = "<group>";
+		};
+		DCA4E93D17AE98390062BAEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4E93E17AE98390062BAEA /* NAPickerView-Info.plist */,
+				DCA4E93F17AE98390062BAEA /* InfoPlist.strings */,
+				DCA4E94217AE98390062BAEA /* main.m */,
+				DCA4E94417AE98390062BAEA /* NAPickerView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCA4E94517AE98390062BAEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC84324017AF65C70080EAC5 /* NASources */,
+				DCA4E94617AE98390062BAEA /* Application */,
+				DCA4E94C17AE98390062BAEA /* Controller */,
+				DCA4E94F17AE98390062BAEA /* View */,
+				DCA4E95217AE98390062BAEA /* Model */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		DCA4E94617AE98390062BAEA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4E94917AE98390062BAEA /* NAAppDelegate.h */,
+				DCA4E94A17AE98390062BAEA /* NAAppDelegate.m */,
+				DCA4E94717AE98390062BAEA /* README.md */,
+				DCA4E94817AE98390062BAEA /* .gitignore */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		DCA4E94C17AE98390062BAEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4E98817AE986F0062BAEA /* NARootViewController.h */,
+				DCA4E98917AE986F0062BAEA /* NARootViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DCA4E94F17AE98390062BAEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC84324717AF78140080EAC5 /* NACustomCell.h */,
+				DC84324817AF78140080EAC5 /* NACustomCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DCA4E95217AE98390062BAEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4E95317AE98390062BAEA /* .gitignore */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DCA4E95517AE98390062BAEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				845F99BC19331B3200760AFD /* PopUpBox */,
+				DCA4E95617AE98390062BAEA /* Images */,
+				DCA4E96217AE98390062BAEA /* Plists */,
+				DCA4E96517AE98390062BAEA /* Sounds */,
+				DCA4E96817AE98390062BAEA /* Xibs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DCA4E95617AE98390062BAEA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DCB6AF7617AF7AAB00F731DE /* image.png */,
+				DCA4E95717AE98390062BAEA /* Background */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DCA4E95717AE98390062BAEA /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4E95817AE98390062BAEA /* Icon.png */,
+				DCA4E95A17AE98390062BAEA /* Icon@2x.png */,
+				DCA4E95C17AE98390062BAEA /* Default.png */,
+				DCA4E95E17AE98390062BAEA /* Default@2x.png */,
+				DCA4E96017AE98390062BAEA /* Default-568h@2x.png */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		DCA4E96217AE98390062BAEA /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4E96317AE98390062BAEA /* .gitignore */,
+			);
+			name = Plists;
+			sourceTree = "<group>";
+		};
+		DCA4E96517AE98390062BAEA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4E96617AE98390062BAEA /* .gitignore */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		DCA4E96817AE98390062BAEA /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4E96917AE98390062BAEA /* .gitignore */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		DCA4E97717AE98390062BAEA /* NAPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4E97D17AE98390062BAEA /* NAPickerViewTests.h */,
+				DCA4E97E17AE98390062BAEA /* NAPickerViewTests.m */,
+				DCA4E97817AE98390062BAEA /* Supporting Files */,
+			);
+			path = NAPickerViewTests;
+			sourceTree = "<group>";
+		};
+		DCA4E97817AE98390062BAEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4E97917AE98390062BAEA /* NAPickerViewTests-Info.plist */,
+				DCA4E97A17AE98390062BAEA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCA4E93217AE98380062BAEA /* NAPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA4E98217AE98390062BAEA /* Build configuration list for PBXNativeTarget "NAPickerView" */;
+			buildPhases = (
+				DCA4E92F17AE98380062BAEA /* Sources */,
+				DCA4E93017AE98380062BAEA /* Frameworks */,
+				DCA4E93117AE98380062BAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NAPickerView;
+			productName = NAPickerView;
+			productReference = DCA4E93317AE98380062BAEA /* NAPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCA4E96F17AE98390062BAEA /* NAPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA4E98517AE98390062BAEA /* Build configuration list for PBXNativeTarget "NAPickerViewTests" */;
+			buildPhases = (
+				DCA4E96B17AE98390062BAEA /* Sources */,
+				DCA4E96C17AE98390062BAEA /* Frameworks */,
+				DCA4E96D17AE98390062BAEA /* Resources */,
+				DCA4E96E17AE98390062BAEA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA4E97617AE98390062BAEA /* PBXTargetDependency */,
+			);
+			name = NAPickerViewTests;
+			productName = NAPickerViewTests;
+			productReference = DCA4E97017AE98390062BAEA /* NAPickerViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCA4E92B17AE98380062BAEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = nghialv;
+			};
+			buildConfigurationList = DCA4E92E17AE98380062BAEA /* Build configuration list for PBXProject "NAPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCA4E92A17AE98380062BAEA;
+			productRefGroup = DCA4E93417AE98380062BAEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA4E93217AE98380062BAEA /* NAPickerView */,
+				DCA4E96F17AE98390062BAEA /* NAPickerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCA4E93117AE98380062BAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845F99C919331B3200760AFD /* weibo_share_btn_check_normal@2x.png in Resources */,
+				845F99C719331B3200760AFD /* weibo_share_big_btn_normal@2x.png in Resources */,
+				845F99CA19331B3200760AFD /* weibo_share_btn_check_selected@2x.png in Resources */,
+				DCA4E94117AE98390062BAEA /* InfoPlist.strings in Resources */,
+				845F99CB19331B3200760AFD /* weibo_share_left_btn_normal@2x.png in Resources */,
+				DCA4E95417AE98390062BAEA /* .gitignore in Resources */,
+				DCA4E95917AE98390062BAEA /* Icon.png in Resources */,
+				DCA4E95B17AE98390062BAEA /* Icon@2x.png in Resources */,
+				DCA4E95D17AE98390062BAEA /* Default.png in Resources */,
+				DCA4E95F17AE98390062BAEA /* Default@2x.png in Resources */,
+				845F99CD19331B3200760AFD /* weibo_share_right_btn_normal@2x.png in Resources */,
+				845F99CC19331B3200760AFD /* weibo_share_left_btn_pressed@2x.png in Resources */,
+				DCA4E96117AE98390062BAEA /* Default-568h@2x.png in Resources */,
+				845F99C619331B3200760AFD /* weibo_share@2x.png in Resources */,
+				DCA4E96417AE98390062BAEA /* .gitignore in Resources */,
+				DCA4E96717AE98390062BAEA /* .gitignore in Resources */,
+				DCA4E96A17AE98390062BAEA /* .gitignore in Resources */,
+				845F99C819331B3200760AFD /* weibo_share_big_btn_pressed@2x.png in Resources */,
+				845F99CE19331B3200760AFD /* weibo_share_right_btn_pressed@2x.png in Resources */,
+				DCB6AF7717AF7AAB00F731DE /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA4E96D17AE98390062BAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA4E97C17AE98390062BAEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DCA4E96E17AE98390062BAEA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCA4E92F17AE98380062BAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA4E94317AE98390062BAEA /* main.m in Sources */,
+				DCA4E94B17AE98390062BAEA /* NAAppDelegate.m in Sources */,
+				DCA4E98A17AE986F0062BAEA /* NARootViewController.m in Sources */,
+				DCA4E98D17AE98F00062BAEA /* NAPickerView.m in Sources */,
+				DCA4E99517AEC9AF0062BAEA /* NAPickerCell.m in Sources */,
+				DC84324617AF69CF0080EAC5 /* NALabelCell.m in Sources */,
+				DC84324917AF78140080EAC5 /* NACustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA4E96B17AE98390062BAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA4E97F17AE98390062BAEA /* NAPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCA4E97617AE98390062BAEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA4E93217AE98380062BAEA /* NAPickerView */;
+			targetProxy = DCA4E97517AE98390062BAEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCA4E93F17AE98390062BAEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA4E94017AE98390062BAEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DCA4E97A17AE98390062BAEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA4E97B17AE98390062BAEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCA4E98017AE98390062BAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCA4E98117AE98390062BAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCA4E98317AE98390062BAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAPickerView/NAPickerView-Prefix.pch";
+				INFOPLIST_FILE = "NAPickerView/NAPickerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DCA4E98417AE98390062BAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAPickerView/NAPickerView-Prefix.pch";
+				INFOPLIST_FILE = "NAPickerView/NAPickerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DCA4E98617AE98390062BAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NAPickerView.app/NAPickerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAPickerView/NAPickerView-Prefix.pch";
+				INFOPLIST_FILE = "NAPickerViewTests/NAPickerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DCA4E98717AE98390062BAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NAPickerView.app/NAPickerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAPickerView/NAPickerView-Prefix.pch";
+				INFOPLIST_FILE = "NAPickerViewTests/NAPickerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCA4E92E17AE98380062BAEA /* Build configuration list for PBXProject "NAPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA4E98017AE98390062BAEA /* Debug */,
+				DCA4E98117AE98390062BAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA4E98217AE98390062BAEA /* Build configuration list for PBXNativeTarget "NAPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA4E98317AE98390062BAEA /* Debug */,
+				DCA4E98417AE98390062BAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA4E98517AE98390062BAEA /* Build configuration list for PBXNativeTarget "NAPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA4E98617AE98390062BAEA /* Debug */,
+				DCA4E98717AE98390062BAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCA4E92B17AE98380062BAEA /* Project object */;
+}
